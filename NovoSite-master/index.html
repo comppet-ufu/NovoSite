@@ -27,14 +27,6 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">CompPet</a>
-        <!--<ul class="navbar-menu">
-          <li class="navbar-menu-link"><a href="#">Quem somos</a></li>
-          <li class="navbar-menu-link"><a href="#">IC</a></li>
-          <li class="navbar-menu-link"><a href="#">Seja um Petiano</a></li>
-          <li class="navbar-menu-link"><a href="#">Techweek</a></li>
-          <li class="navbar-menu-link"><a href="#">Projetos</a></li>
-          <li class="navbar-menu-link"><a href="#">Blog</a></li>
-        </ul>-->
         <button
           class="navbar-toggler"
           type="button"
@@ -48,26 +40,61 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            
             <li class="nav-item">
-              <a class="nav-link" href="#">Quem somos</a>
+              <div class="dropdown">
+                <a class="nav-link" href="#">Quem somos
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="#">Atuantes</a>
+                  <a href="#">Ex-membros</a>
+                  <a href="#">Interpet</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">IC</a>
+              <div class="dropdown">
+                <a class="nav-link" href="#">IC
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Pesquisas</a>
+                    <a href="#">Recursos</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Petiano</a>
+              <div class="dropdown">
+                <a class="nav-link" href="#">Techweek
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Evento</a>
+                    <a href="#">Mostra de Software</a>
+                    <a href="#">Maratona de programação</a>
+                    <a href="#">Outros</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Techweek</a>
+              <div class="dropdown">
+                <a class="nav-link" href="#">Projetos
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Extensão</a>
+                    <a href="#">Ensino</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <div class="dropdown">
+                <a class="nav-link" href="https://comppet.github.io/PrintF/">Blog
+                  <i class="fa fa-caret-down"></i>
+                </a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <!--
+            <!---
             <li class="nav-item active">
               <a class="nav-link" href="#"
                 >Home <span class="sr-only">(current)</span></a>
