@@ -40,27 +40,81 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link" href="#">Quem somos
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="#">Atuantes</a>
+                  <a href="#">Ex-membros</a>
+                  <a href="#">Interpet</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <div class="dropdown">
+                <a class="nav-link" href="#">IC
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Pesquisas</a>
+                    <a href="#">Recursos</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link" href="#">Techweek
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Evento</a>
+                    <a href="#">Mostra de Software</a>
+                    <a href="#">Maratona de programação</a>
+                    <a href="#">Outros</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link" href="#">Projetos
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Extensão</a>
+                    <a href="#">Ensino</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link" href="https://comppet.github.io/PrintF/">Blog
+                  <i class="fa fa-caret-down"></i>
+                </a>
+              </div>
+            </li>
+            <!---
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
             </li>
+            -->
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input
               class="form-control mr-sm-2"
               type="text"
-              placeholder="Search"
+              placeholder="Pesquisar"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
+            <button class="btn-search btn btn-outline-light my-2 my-sm-0" type="submit">
+              Pesquisar 
+            </button>
+               
             </button>
           </form>
         </div>
@@ -76,46 +130,84 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
- 
-            <img  src="assets/images/coreltechweek.jpg" alt="Facom Techweek" style="width:100%;" >
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
             <div class="container">
-              <div class="carousel-caption text-left clear-fix">
-               <!-- <h1 class="carousel-title">Facom TechWeek</h1> -->
-                <p class="carousel-text">
-                  A semana da acadêmica da Faculdade de computação é organizada anualmente, no primeiro semestre
-                  de cada ano letivo. Conta com palestras, minicursos, workshop de teses de dissertações e outros
-                  eventos menores organizados pelo CompPET, como por exemplo: a maratona de programação, mostra de 
-                  software, entre outros.
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-light direita" href="#" role="button" >
-                    Saiba mais</a
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Sign up today</a
                   >
                 </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/people.jpg" style="width: 100%; height: 100%; ">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
             <div class="container">
               <div class="carousel-caption">
+                <h1>Another example headline.</h1>
                 <p>
-                  <a class="btn btn-lg btn-outline-light btn-lg btn-block" href="#" role="button"
-                    >Seja um Petiano</a
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn more</a
                   >
                 </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/petianos.png" style="width:100%; height: 100%;">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
             <div class="container">
               <div class="carousel-caption text-right">
-                
-                
+                <h1>One more for good measure.</h1>
                 <p>
-                  <a class="btn btn-lg btn-outline-light" href="#" role="button"
-                    >Faça Parte</a
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Browse gallery</a
                   >
                 </p>
               </div>
@@ -160,20 +252,20 @@
               role="img"
               aria-label="Placeholder: 140x140"
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+              <image href="assets/images/ensino1.png" x="0" y="0" height="140px" width="140px"/>
+              <title>Ensino</title>
+              <rect width="100%" height="100%" fill="none"/>
             </svg>
             <h2>Ensino</h2>
             <p>
-              Donec sed odio dui. Etiam porta sem malesuada magna mollis
-              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-              Praesent commodo cursus magna.
+              Minicursos e grupos de estudos voltados para alunos das FACOM (Faculdade de 
+              Computação – UFU), com o intuito de trazer novos tópicos e uma maior interação 
+              entre os alunos, ajudando na fornada da faculdade e melhor prepará-lo para 
+              o mercado de trabalho.
             </p>
             <p>
               <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
+                >Mais detalhes &raquo;</a
               >
             </p>
           </div>
@@ -190,20 +282,19 @@
               role="img"
               aria-label="Placeholder: 140x140"
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+              <image href="assets/images/pesquisa1.jpg" x="0" y="0" height="140px" width="140px"/>
+              <title>Pesquisa</title>
+              <rect width="100%" height="100%" fill="none" />
             </svg>
             <h2>Pesquisa</h2>
             <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-              eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-              mauris condimentum nibh.
+              Cada petiano é incentivado a desenvolver pesquisas e trabalhos cientifícos, 
+              como a Iniciação Ciéntifica, seja sozinho ou em grupo. Aprimorando a análise 
+              crítica, a maturidade intelectual e a proatividade.
             </p>
             <p>
               <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
+                >Mais detalhes &raquo;</a
               >
             </p>
           </div>
@@ -219,20 +310,19 @@
               role="img"
               aria-label="Placeholder: 140x140"
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image href="assets/images/extensão2.png" x="0" y="0" height="140px" width="140px"/>
+            <title>Extensão</title>
+            <rect width="100%" height="100%" fill="none" />
             </svg>
             <h2>Extensão</h2>
             <p>
-              Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-              egestas eget quam. Vestibulum id ligula porta felis euismod
-              semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.
+              Projetos voltados para a comunidade de Uberlândia, com o intuito de 
+              melhorar a vida das pessoas, passando algo de inovador ao cotidiano 
+              delas.
             </p>
             <p>
               <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
+                >Mais detalhes &raquo;</a
               >
             </p>
           </div>
