@@ -12,3 +12,26 @@
     font-size: 3.5rem;
   }
 }
+
+.custom-blue {
+  color: rgb(69,70,151) !important
+}
+
+
+.carousel-title {
+  text-align: right;
+}
+
+.carousel-text {
+  text-align: justify;
+  
+}
+
+
+.clear-fix {
+  overflow: auto;
+}
+
+.direita {
+  float: right;
+}
