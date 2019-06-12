@@ -18,9 +18,9 @@
   overflow: hidden;
 }
 
-
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   /*background-color: #4040ff;*/
 }
 
@@ -30,7 +30,7 @@
   position: fixed !important;
   background-color: #5e5eba;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -46,8 +46,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #9494d1
-;
+  background-color: #9494d1;
 }
 
 /* Show the dropdown menu on hover */
@@ -60,22 +59,42 @@
   border-color: #fff;
 }
 
-.navbar{
+.navbar {
   background: #414294 !important;
 }
 
-.navbar-menu{
+.navbar-menu {
   position: absolute;
 }
 
-.navbar-menu-link{
+.navbar-menu-link {
   display: inline;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-weight: bold;
 }
 
-.btn-search{
-  background-image:url(../images/lupa-pesquisa.png);
+.btn-search {
+  background-image: url(../images/lupa-pesquisa.png);
+}
+
+.custom-blue {
+  color: rgb(69, 70, 151) !important;
+}
+
+.carousel-title {
+  text-align: right;
+}
+
+.carousel-text {
+  text-align: justify;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.direita {
+  float: right;
 }
